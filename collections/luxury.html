@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Watches - TimeLux</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">TimeLux</a>
+
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html">Collections</a></li>
+      <li><a href="../index.html">About</a></li>
+      <li><a href="../index.html">Contact</a></li>
+      <li><a href="collections/index.html" class="cta-btn">Shop Now</a></li>
+    </ul>
+
+    <div class="icons">
+      <div class="icon-wrapper" id="favWrapper">
+        <i class="fas fa-heart" id="favIcon"></i>
+        <span class="favCount" id="favCount">0</span>
+        <div class="dropdown" id="favDropdown"></div>
+      </div>
+
+      <div class="icon-wrapper" id="cartWrapper">
+        <i class="fas fa-shopping-cart" id="cartIcon"></i>
+        <span class="cartCount" id="cartCount">0</span>
+        <div class="dropdown" id="cartDropdown"></div>
+      </div>
+
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="collection-detail">
+  <h2>Luxury Watches Collection</h2>
+  <div class="collection-grid">
+
+    <!-- Product 1 -->
+    <div class="collection-card">
+      <img src="../images/luxury1.jpg" alt="Diamond Gold Watch">
+      <div class="card-content">
+        <h3>Diamond Gold Watch</h3>
+        <p class="price">$1200</p>
+
+        <button class="btn-add"
+          data-name="Diamond Gold Watch"
+          data-price="1200"
+          data-img="../images/luxury1.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Diamond Gold Watch"
+          data-price="1200"
+          data-img="../images/luxury1.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="collection-card">
+      <img src="../images/luxury2.jpg" alt="Platinum Black Watch">
+      <div class="card-content">
+        <h3>Platinum Black Watch</h3>
+        <p class="price">$1500</p>
+
+        <button class="btn-add"
+          data-name="Platinum Black Watch"
+          data-price="1500"
+          data-img="../images/luxury2.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Platinum Black Watch"
+          data-price="1500"
+          data-img="../images/luxury2.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="collection-card">
+      <img src="../images/luxury3.jpg" alt="Royal Blue Luxury Watch">
+      <div class="card-content">
+        <h3>Royal Blue Luxury Watch</h3>
+        <p class="price">$1400</p>
+
+        <button class="btn-add"
+          data-name="Royal Blue Luxury Watch"
+          data-price="1400"
+          data-img="../images/luxury3.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Royal Blue Luxury Watch"
+          data-price="1400"
+          data-img="../images/luxury3.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="collection-card">
+      <img src="../images/luxury4.jpg" alt="Luxury Rose Gold Watch">
+      <div class="card-content">
+        <h3>Luxury Rose Gold Watch</h3>
+        <p class="price">$1600</p>
+
+        <button class="btn-add"
+          data-name="Luxury Rose Gold Watch"
+          data-price="1600"
+          data-img="../images/luxury4.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Luxury Rose Gold Watch"
+          data-price="1600"
+          data-img="../images/luxury4.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="collection-card">
+      <img src="../images/luxury5.jpg" alt="Elite White Watch">
+      <div class="card-content">
+        <h3>Elite White Watch</h3>
+        <p class="price">$1300</p>
+
+        <button class="btn-add"
+          data-name="Elite White Watch"
+          data-price="1300"
+          data-img="../images/luxury5.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Elite White Watch"
+          data-price="1300"
+          data-img="../images/luxury5.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Add more products as needed -->
+
+  </div>
+</section>
+
+<script src="../header.js"></script>
+
+</body>
+</html>

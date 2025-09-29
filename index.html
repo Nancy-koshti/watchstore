@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Store</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/5a6e9e2f7f.js" crossorigin="anonymous"></script>
+
+  <!-- ✅ Load Font Awesome properly -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Font Awesome CDN for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+
+  <!-- ==== Header Section ==== -->
+  <header>
+  <div class="navbar">
+    <a href="index.html" class="logo">TimeLux</a>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#collections" class="cta-btn">Shop Now</a></li>
+    </ul>
+
+    <div class="icons">
+      <div class="icon-wrapper" id="favWrapper">
+        <i class="fas fa-heart" id="favIcon"></i>
+        <span class="favCount" id="favCount">0</span>
+        <div class="dropdown" id="favDropdown"></div>
+      </div>
+
+      <div class="icon-wrapper" id="cartWrapper">
+        <i class="fas fa-shopping-cart" id="cartIcon"></i>
+        <span class="cartCount" id="cartCount">0</span>
+        <div class="dropdown" id="cartDropdown"></div>
+      </div>
+
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- ==== Hero Section ==== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Luxury Watches for Every Occasion</h1>
+      <p>Timeless elegance crafted just for you. Discover our exclusive collection today.</p>
+      <div class="hero-buttons">
+        <a href="#collections" class="btn btn-primary">Explore Collection</a>
+        <a href="#shop" class="btn btn-outline">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==== Featured Collection ==== -->
+  <section class="collection" id="collections">
+    <h2>Our Signature Collections</h2>
+    <div class="collection-grid">
+      
+      <!-- Card 1 -->
+      <div class="collection-card">
+        <img src="images/1.jpg" alt="Men's Collection">
+        <div class="card-content">
+          <h3>Men's Collection</h3>
+          <p>Bold designs with timeless style crafted for modern gentlemen.</p>
+          <a href="collections/men.html" class="btn-collection">Explore</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="collection-card">
+        <img src="images/2.jpg" alt="Women's Collection">
+        <div class="card-content">
+          <h3>Women's Collection</h3>
+          <p>Elegant and chic timepieces made to match your lifestyle.</p>
+          <a href="collections/women.html" class="btn-collection">Explore</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="collection-card">
+        <img src="images/3.jpg" alt="Classic Collection">
+        <div class="card-content">
+          <h3>Classic Collection</h3>
+          <p>Timeless designs with enduring quality and luxury appeal.</p>
+          <a href="collections/classy.html" class="btn-collection">Explore</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="collection-card">
+        <img src="images/4.jpg" alt="Smart Watches">
+        <div class="card-content">
+          <h3>Smart Watches</h3>
+          <p>Where technology meets style – track, connect, and shine.</p>
+          <a href="collections/smart.html" class="btn-collection">Explore</a>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="collection-card">
+        <img src="images/5.jpg" alt="Limited Edition">
+        <div class="card-content">
+          <h3>Limited Edition</h3>
+          <p>Exclusive designs, crafted in limited numbers for collectors.</p>
+          <a href="collections/luxury.html" class="btn-collection">Explore</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============= About Us Section ============== -->
+  <section class="about-us" id="about">
+    <div class="about-us-text">
+      <h2>About <span>NK Watch Store</span></h2>
+      <p>At <strong>NK Watch Store</strong>, we design luxury watches that embody elegance, precision, and timeless style. Each timepiece is crafted with dedication, ensuring it’s not just a watch but a statement of sophistication.</p>
+      <p>Founded with a passion for excellence, we are a trusted destination for watch enthusiasts around the world.</p>
+      <div class="mission">
+        <h3>Our Mission</h3>
+        <p>To provide premium, handcrafted watches that inspire confidence and celebrate personal style.</p>
+      </div>
+    </div>
+    <div class="about-us-image">
+      <img src="images/6.jpg" alt="Luxury Watch">
+    </div>
+  </section>
+
+  <!-- ==== Best Sellers Section ==== -->
+  <section class="bestsellers" id="bestsellers">
+    <h2>Best Sellers</h2>
+    <div class="product-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="images/7.jpg" alt="Classic Gold Watch">
+        <div class="product-info">
+          <h3>Classic Gold Watch</h3>
+          <p>Elegance and timeless design for every occasion.</p>
+          <div class="price">$299</div>
+          <div class="stars">★★★★★</div>
+          <div class="product-actions">
+            <a href="#collections" class="btn btn-cart">Add to Cart</a>
+            <a href="#collections" class="btn btn-fav">♡ Favorite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="images/8.jpg" alt="Luxury Silver Watch">
+        <div class="product-info">
+          <h3>Luxury Silver Watch</h3>
+          <p>Crafted for modern professionals with sleek design.</p>
+          <div class="price">$349</div>
+          <div class="stars">★★★★☆</div>
+          <div class="product-actions">
+            <a href="#collections" class="btn btn-cart">Add to Cart</a>
+            <a href="#collections" class="btn btn-fav">♡ Favorite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="images/9.jpg" alt="Smart Digital Watch">
+        <div class="product-info">
+          <h3>Smart Digital Watch</h3>
+          <p>Technology and style combined for a smarter lifestyle.</p>
+          <div class="price">$199</div>
+          <div class="stars">★★★★☆</div>
+          <div class="product-actions">
+            <a href="#collections" class="btn btn-cart">Add to Cart</a>
+            <a href="#collections" class="btn btn-fav">♡ Favorite</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="images/10.jpg" alt="Limited Edition Watch">
+        <div class="product-info">
+          <h3>Limited Edition Watch</h3>
+          <p>Exclusive, rare, and crafted with precision.</p>
+          <div class="price">$499</div>
+          <div class="stars">★★★★★</div>
+          <div class="product-actions">
+            <a href="#collections" class="btn btn-cart">Add to Cart</a>
+            <a href="#collections" class="btn btn-fav">♡ Favorite</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==== Why Choose Us Section ==== -->
+  <section class="why-choose-us" id="why-us">
+    <h2>Why Choose Us</h2>
+    <div class="highlights">
+
+      <!-- Box 1 -->
+      <div class="highlight-box">
+        <div class="highlight-icon"><i class="fas fa-gem"></i></div>
+        <h3>Premium Quality</h3>
+        <p>Our watches are crafted with the finest materials and unmatched precision.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="highlight-box">
+        <div class="highlight-icon"><i class="fas fa-clock"></i></div>
+        <h3>Timeless Design</h3>
+        <p>Each timepiece reflects classic elegance that never goes out of style.</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="highlight-box">
+        <div class="highlight-icon"><i class="fas fa-globe"></i></div>
+        <h3>Worldwide Shipping</h3>
+        <p>We deliver luxury watches safely to your doorstep, wherever you are.</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="highlight-box">
+        <div class="highlight-icon"><i class="fas fa-crown"></i></div>
+        <h3>Exclusive Collections</h3>
+        <p>Discover rare, limited-edition designs available only in our store.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==== Reviews Section ==== -->
+  <section class="reviews" id="reviews">
+    <h2>What Our Customers Say</h2>
+
+    <!-- Slider -->
+    <div class="review-slider">
+      <div class="review-cards" id="reviewCards">
+        <!-- Sample Review -->
+        <div class="review-card">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The craftsmanship is incredible! My watch feels elegant and timeless. Absolutely worth it."</p>
+          <div class="reviewer">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+            <div>
+              <h4>Rahul Mehta</h4>
+              <span>Business Executive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation -->
+      <button class="nav-btn prev-btn">&#10094;</button>
+      <button class="nav-btn next-btn">&#10095;</button>
+    </div>
+
+    <!-- Review Form -->
+    <div class="review-form">
+      <h3>Leave a Review</h3>
+      <form id="reviewForm">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="role">Your Profession</label>
+        <input type="text" id="role" placeholder="e.g. Designer, Engineer">
+
+        <label for="review">Your Review</label>
+        <textarea id="review" rows="4" placeholder="Write your experience..." required></textarea>
+
+        <label>Your Rating</label>
+        <div class="rating" id="rating">
+          <i class="fas fa-star" data-value="1"></i>
+          <i class="fas fa-star" data-value="2"></i>
+          <i class="fas fa-star" data-value="3"></i>
+          <i class="fas fa-star" data-value="4"></i>
+          <i class="fas fa-star" data-value="5"></i>
+        </div>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==== Call-to-Action Banner ==== -->
+  <section class="cta-banner">
+    <h2>Elevate Your Style</h2>
+    <p>Discover our premium collection of luxury watches crafted for timeless elegance.</p>
+    <a href="#collections" class="cta-btn">Shop Now</a>
+  </section>
+
+  <!-- ==== Newsletter section ==== -->
+
+  <section class="newsletter">
+  <h2>Subscribe to Our Newsletter</h2>
+  <p>Get exclusive updates, offers, and luxury watch insights delivered straight to your inbox.</p>
+
+  <form class="newsletter-form" id="newsletterForm">
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <div class="success-msg" id="successMsg">Thank you for subscribing!</div>
+
+  <div class="subscribers-list">
+    <h3>Subscribed Users:</h3>
+    <div id="subscriberItems"></div>
+  </div>
+</section>
+
+<!-- =========================== Contact us section ==============[] -->
+<section class="contact-section" id="contact">
+  <h2>Get in Touch</h2>
+
+  <div class="contact-info">
+    <div class="info-card">
+      <h3>Email</h3>
+      <p><a href="mailto:info@nkwatchstore.com">info@nkwatchstore.com</a></p>
+    </div>
+    <div class="info-card">
+      <h3>Phone</h3>
+      <p><a href="tel:+919876543210">+91 9876543210</a></p>
+    </div>
+    <div class="info-card">
+      <h3>Address</h3>
+      <p>123 Luxury St,<br>Mumbai, India</p>
+    </div>
+    <div class="info-card">
+      <h3>Working Hours</h3>
+      <p>Mon - Fri: 10:00 AM - 8:00 PM<br>Sat - Sun: 11:00 AM - 6:00 PM</p>
+    </div>
+  </div>
+
+  <div class="map-container">
+    <iframe src="https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    
+    <!-- About / Brand -->
+    <div class="footer-column">
+      <h3>NK Watch Store</h3>
+      <p>Premium luxury watches crafted for timeless elegance. Discover your style today with our exclusive collection.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#collections">Collection</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Email: info@nkwatchstore.com</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Address: 123 Luxury St, Mumbai, India</p>
+    </div>
+
+    <!-- Newsletter Mini -->
+    <div class="footer-column">
+      <h3>Newsletter</h3>
+      <p>Subscribe to get our latest updates and offers.</p>
+      <form class="footer-newsletter" id="footerNewsletter">
+        <input type="email" id="footerEmail" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="footerSuccess" style="color:#FFD700;margin-top:10px;display:none;">Thank you for subscribing!</div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 NK Watch Store. All rights reserved.
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="header.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Watches - TimeLux</title>
+<link rel="stylesheet" href="../style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">TimeLux</a>
+
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../index.html">Collections</a></li>
+      <li><a href="../index.html">About</a></li>
+      <li><a href="../index.html">Contact</a></li>
+      <li><a href="collections/index.html" class="cta-btn">Shop Now</a></li>
+    </ul>
+
+    <div class="icons">
+      <div class="icon-wrapper" id="favWrapper">
+        <i class="fas fa-heart" id="favIcon"></i>
+        <span class="favCount" id="favCount">0</span>
+        <div class="dropdown" id="favDropdown"></div>
+      </div>
+
+      <div class="icon-wrapper" id="cartWrapper">
+        <i class="fas fa-shopping-cart" id="cartIcon"></i>
+        <span class="cartCount" id="cartCount">0</span>
+        <div class="dropdown" id="cartDropdown"></div>
+      </div>
+
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="collection-detail">
+  <h2>Smart Watches Collection</h2>
+  <div class="collection-grid">
+
+    <!-- Product 1 -->
+    <div class="collection-card">
+      <img src="../images/smart1.jpg" alt="Smart Fitness Watch">
+      <div class="card-content">
+        <h3>Smart Fitness Watch</h3>
+        <p class="price">$300</p>
+
+        <button class="btn-add"
+          data-name="Smart Fitness Watch"
+          data-price="300"
+          data-img="../images/smart1.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Smart Fitness Watch"
+          data-price="300"
+          data-img="../images/smart1.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="collection-card">
+      <img src="../images/smart2.jpg" alt="Advanced Health Tracker">
+      <div class="card-content">
+        <h3>Advanced Health Tracker</h3>
+        <p class="price">$350</p>
+
+        <button class="btn-add"
+          data-name="Advanced Health Tracker"
+          data-price="350"
+          data-img="../images/smart2.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Advanced Health Tracker"
+          data-price="350"
+          data-img="../images/smart2.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="collection-card">
+      <img src="../images/smart3.jpg" alt="Smart Sports Watch">
+      <div class="card-content">
+        <h3>Smart Sports Watch</h3>
+        <p class="price">$400</p>
+
+        <button class="btn-add"
+          data-name="Smart Sports Watch"
+          data-price="400"
+          data-img="../images/smart3.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Smart Sports Watch"
+          data-price="400"
+          data-img="../images/smart3.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="collection-card">
+      <img src="../images/smart4.jpg" alt="Luxury Smartwatch">
+      <div class="card-content">
+        <h3>Luxury Smartwatch</h3>
+        <p class="price">$500</p>
+
+        <button class="btn-add"
+          data-name="Luxury Smartwatch"
+          data-price="500"
+          data-img="../images/smart4.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Luxury Smartwatch"
+          data-price="500"
+          data-img="../images/smart4.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="collection-card">
+      <img src="../images/smart5.jpg" alt="Smart Minimalist Watch">
+      <div class="card-content">
+        <h3>Smart Minimalist Watch</h3>
+        <p class="price">$320</p>
+
+        <button class="btn-add"
+          data-name="Smart Minimalist Watch"
+          data-price="320"
+          data-img="../images/smart5.jpg">
+          Add to Cart
+        </button>
+
+        <button class="btn-fav"
+          data-name="Smart Minimalist Watch"
+          data-price="320"
+          data-img="../images/smart5.jpg">
+          ❤ Favorite
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="../header.js"></script>
+
+</body>
+</html>
